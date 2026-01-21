@@ -1,118 +1,76 @@
-* {
-  box-sizing: border-box;
-}
-
+/* Reset & base */
+* { box-sizing: border-box; }
 body {
   margin: 0;
-  font-family: Inter, Arial, sans-serif;
-  color: #111;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
   background: #fff;
+  color: #111;
 }
 
-/* HEADER */
-.header {
-  padding: 20px 40px;
-}
-
-.logo {
-  height: 40px;
-}
+/* LOGO */
+.header { padding: 20px; }
+.logo { height: 40px; }
 
 /* HERO */
 .hero {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 80px 40px;
-  gap: 40px;
+  padding: 80px 20px;
 }
-
-.hero-text {
-  max-width: 500px;
-}
-
 .hero h1 {
-  font-size: 2.8rem;
-  margin-bottom: 15px;
+  font-size: 3rem;
+  margin-bottom: 12px;
+}
+.hero .subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+.hero .hero-image {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto 25px auto;
 }
 
-.hero p {
+/* BUTTON */
+.btn-primary {
+  display: inline-block;
+  background: #111;
+  color: #fff;
+  padding: 15px 34px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
   font-size: 1.1rem;
-  color: #555;
-}
-
-.hero-image img {
-  max-width: 420px;
-  width: 100%;
 }
 
 /* DESCRIPTION */
 .description {
-  padding: 40px;
-  max-width: 800px;
-  margin: auto;
+  padding: 40px 20px;
   font-size: 1.05rem;
   color: #444;
 }
 
-/* STEPS */
-.steps {
-  background: #f7f8fb;
-  padding: 80px 40px;
+/* GUIDE STEPS */
+.guide {
+  padding: 60px 20px;
 }
-
-.steps h2 {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-.step {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  max-width: 600px;
+.guide-step {
   margin: 20px auto;
+  max-width: 360px;
 }
+/* Optionally later add icons here if you want */
 
-.step span {
-  font-weight: bold;
-  font-size: 1.2rem;
-}
-
-/* IMAGE SECTION */
-.image-section {
-  text-align: center;
-  padding: 80px 20px;
-}
-
-.image-section img {
-  max-width: 900px;
+/* SECOND IMAGE */
+.image-full img {
   width: 100%;
+  margin: 60px 0;
 }
 
 /* CTA */
 .cta {
-  text-align: center;
-  padding: 90px 20px;
-  background: #111;
-  color: white;
+  padding: 80px 20px;
+  background: #f0f0f0;
 }
-
-.btn {
-  display: inline-block;
-  margin-top: 25px;
-  padding: 14px 34px;
-  background: white;
-  color: #111;
-  text-decoration: none;
-  border-radius: 30px;
-  font-weight: 600;
-}
-
-/* FOOTER */
-.footer {
-  text-align: center;
-  padding: 30px;
-  font-size: 0.9rem;
-  color: #666;
+.cta h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
 }
