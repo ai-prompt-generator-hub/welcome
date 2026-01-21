@@ -4,63 +4,61 @@
 
 body {
   margin: 0;
-  font-family: system-ui, Arial, sans-serif;
-  background: #f5f7fb;
+  font-family: Inter, Arial, sans-serif;
   color: #111;
+  background: #fff;
+}
+
+/* HEADER */
+.header {
+  padding: 20px 40px;
+}
+
+.logo {
+  height: 40px;
 }
 
 /* HERO */
 .hero {
-  text-align: center;
-  padding: 90px 20px;
-  background: linear-gradient(135deg, #4f46e5, #7c3aed);
-  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 40px;
+  gap: 40px;
+}
+
+.hero-text {
+  max-width: 500px;
 }
 
 .hero h1 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   margin-bottom: 15px;
 }
 
 .hero p {
   font-size: 1.1rem;
-  opacity: 0.95;
+  color: #555;
 }
 
-/* BUTTON */
-.primary-btn {
-  display: inline-block;
-  margin-top: 30px;
-  padding: 14px 32px;
-  background: white;
-  color: #4f46e5;
-  text-decoration: none;
-  border-radius: 30px;
-  font-weight: bold;
+.hero-image img {
+  max-width: 420px;
+  width: 100%;
 }
 
-/* VALUES */
-.values {
-  display: flex;
-  gap: 20px;
-  padding: 60px 20px;
-  max-width: 900px;
+/* DESCRIPTION */
+.description {
+  padding: 40px;
+  max-width: 800px;
   margin: auto;
-}
-
-.value {
-  background: white;
-  padding: 30px;
-  border-radius: 14px;
-  flex: 1;
-  text-align: center;
+  font-size: 1.05rem;
+  color: #444;
 }
 
 /* STEPS */
 .steps {
-  padding: 60px 20px;
-  max-width: 700px;
-  margin: auto;
+  background: #f7f8fb;
+  padding: 80px 40px;
 }
 
 .steps h2 {
@@ -70,21 +68,51 @@ body {
 
 .step {
   display: flex;
-  gap: 20px;
-  margin-bottom: 20px;
   align-items: center;
+  gap: 15px;
+  max-width: 600px;
+  margin: 20px auto;
 }
 
 .step span {
   font-weight: bold;
-  font-size: 1.3rem;
-  color: #4f46e5;
+  font-size: 1.2rem;
+}
+
+/* IMAGE SECTION */
+.image-section {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.image-section img {
+  max-width: 900px;
+  width: 100%;
 }
 
 /* CTA */
 .cta {
   text-align: center;
-  padding: 80px 20px;
-  background: #111827;
+  padding: 90px 20px;
+  background: #111;
   color: white;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 14px 34px;
+  background: white;
+  color: #111;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 30px;
+  font-size: 0.9rem;
+  color: #666;
 }
