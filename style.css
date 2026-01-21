@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, Arial, sans-serif;
+  background: #f5f7fb;
+  color: #111;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 90px 20px;
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  opacity: 0.95;
+}
+
+/* BUTTON */
+.primary-btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 14px 32px;
+  background: white;
+  color: #4f46e5;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+/* VALUES */
+.values {
+  display: flex;
+  gap: 20px;
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.value {
+  background: white;
+  padding: 30px;
+  border-radius: 14px;
+  flex: 1;
+  text-align: center;
+}
+
+/* STEPS */
+.steps {
+  padding: 60px 20px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.steps h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.step {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.step span {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #4f46e5;
+}
+
+/* CTA */
+.cta {
+  text-align: center;
+  padding: 80px 20px;
+  background: #111827;
+  color: white;
+}
